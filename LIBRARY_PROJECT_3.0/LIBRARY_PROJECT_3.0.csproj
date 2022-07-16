@@ -73,6 +73,18 @@
     <Compile Include="Category.cs">
       <DependentUpon>LibraryManagementSystemModels.tt</DependentUpon>
     </Compile>
+    <Compile Include="DalModels\AutorModels\AutorDalModelForSelector.cs" />
+    <Compile Include="DalModels\AutorModels\AutorDalModel.cs" />
+    <Compile Include="DalModels\BookModels\BookDalModel.cs" />
+    <Compile Include="DalModels\CategoryModels\CategoryDalModelForSelector.cs" />
+    <Compile Include="DalModels\PublisherModels\PublisherDalModel.cs" />
+    <Compile Include="DalModels\PublisherModels\PublisherDalModelForSelector.cs" />
+    <Compile Include="DalModels\StatusModels\StatusDalModelForSelector.cs" />
+    <Compile Include="Dals\AutorDal.cs" />
+    <Compile Include="Dals\BookDal.cs" />
+    <Compile Include="Dals\CategoryDal.cs" />
+    <Compile Include="Dals\PublisherDal.cs" />
+    <Compile Include="Dals\StatusDal.cs" />
     <Compile Include="LibraryManagementSystemModels.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -159,5 +171,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
