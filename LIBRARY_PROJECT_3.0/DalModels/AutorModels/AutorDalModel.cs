@@ -8,6 +8,7 @@ namespace LIBRARY_PROJECT_3._0.DalModels.AutorModels
 {
     internal class AutorDalModel
     {
-        public string Autor { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }
