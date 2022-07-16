@@ -36,6 +36,8 @@ namespace LIBRARY_PROJECT_3._0
         {
             this.AutorFirstN.Text = "";
             this.AutorLastN.Text = "";
+            this.AutorFirstN_Update.Text = "";
+            this.AutorLastN_Update.Text = "";
         }
 
         private void BtnAddAutor_Click(object sender, RoutedEventArgs e)
@@ -64,6 +66,7 @@ namespace LIBRARY_PROJECT_3._0
             autorDal.Delete(AutorLastN_Update.Text);
             clearInput();
             LoadAutorData();
+            
         }
         protected string autorLastNameUpdate;
         private void gridAuthors_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
