@@ -107,6 +107,9 @@
     <Compile Include="Reader.cs">
       <DependentUpon>LibraryManagementSystemModels.tt</DependentUpon>
     </Compile>
+    <Compile Include="ReaderWindow.xaml.cs">
+      <DependentUpon>ReaderWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Status.cs">
       <DependentUpon>LibraryManagementSystemModels.tt</DependentUpon>
     </Compile>
@@ -141,6 +144,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="PublisherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReaderWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
