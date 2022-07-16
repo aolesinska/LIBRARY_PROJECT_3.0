@@ -10,7 +10,7 @@ namespace LIBRARY_PROJECT_3._0.Dals
     internal class PublisherDal
     {
         private LibraryDBEntities db = new LibraryDBEntities();
-        public IList<PublisherDalModel> GetPublisherList =>
+        public IList<PublisherDalModel> getPublisherList =>
             db.Publishers.Select(
                 publisher => new PublisherDalModel
                 {
@@ -20,7 +20,7 @@ namespace LIBRARY_PROJECT_3._0.Dals
                     BuildingNum = publisher.BuildingNum,
                     Postcode = publisher.Postcode,
                 }).ToList();
-        public IList<PublisherDalModelForSelector> GetPublisherForSelectorList =>
+        public IList<PublisherDalModelForSelector> getPublisherForSelectorList =>
             db.Publishers.Select(
                 publisher => new PublisherDalModelForSelector
                 {
