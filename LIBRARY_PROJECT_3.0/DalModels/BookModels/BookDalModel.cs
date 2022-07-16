@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LIBRARY_PROJECT_3._0.DalModels.BookModels
 {
-    class BookDalModel
+    internal class BookDalModel
     {
         public string Title { get; set; }
         public string ISBN { get; set; }

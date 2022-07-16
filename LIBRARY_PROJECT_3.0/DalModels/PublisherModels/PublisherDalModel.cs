@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LIBRARY_PROJECT_3._0.DalModels.PublisherModels
 {
-    class PublisherDalModel
+    internal class PublisherDalModel
     {        
         public string Name { get; set; }
         public string City { get; set; }
