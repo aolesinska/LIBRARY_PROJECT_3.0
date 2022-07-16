@@ -67,6 +67,9 @@
     <Compile Include="Autor.cs">
       <DependentUpon>LibraryManagementSystemModels.tt</DependentUpon>
     </Compile>
+    <Compile Include="AutorWindow.xaml.cs">
+      <DependentUpon>AutorWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Book.cs">
       <DependentUpon>LibraryManagementSystemModels.tt</DependentUpon>
     </Compile>
@@ -99,6 +102,10 @@
     <Compile Include="Status.cs">
       <DependentUpon>LibraryManagementSystemModels.tt</DependentUpon>
     </Compile>
+    <Page Include="AutorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
